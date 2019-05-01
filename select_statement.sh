@@ -12,7 +12,7 @@
 # setup cue words
 PS3="Please enter your choice: "
 
-# main program
+# main
 select choice in "Current Users" "Net Status" "Process Status" "Exit"
 do
 	case ${choice} in
